@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.min.css");
+:root {
+  --vp-c-brand: #D09CFA;
+  --vp-c-brand-light: #D09CFA;
+  --vp-c-brand-dark: #D09CFA;
+  --vp-c-hover: #A555EC;
+  --vp-c-bg: #faf6f1;
+  --vp-c-bg-alpha-with-backdrop: rgba(250, 246, 241, 0.7);
+
+  --vp-font-family-base: "LXGW WenKai Lite", "Inter var experimental",
+    "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --vp-font-family-mono: "LXGW WenKai Mono Lite", ui-monospace, SFMono-Regular,
+    "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+}
+.dark {
+  --vp-c-bg: #2D2727;
+  --vp-c-text: white;
+  --vp-c-hover: #ffffff;
+  --vp-c-bg-alpha-with-backdrop: rgba(44, 54, 57, 0.7);
+  --vp-c-brand: #D09CFA;
+  --vp-c-brand-light: #D09CFA;
+  --vp-c-brand-dark: #D09CFA;
+  --vp-c-hover: #b47ff5;
+}
+#app {
+  min-height: 100vh;
+  position: relative;
+}
+
+.theme {
+  background-color: var(--vp-c-bg);
+}
+
+.vp-doc h2 {
+  margin-top: 0;
+  border-top: none;
+}
+
+.VPDocOutlineDropdown{
+  display: none !important;
+}
+
+.watermark {
+  opacity: 0.0;
+  font-size:1.2px;
+}
