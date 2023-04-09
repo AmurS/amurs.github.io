@@ -9,7 +9,7 @@ This is a blog theme used vitepress to build. You could [click here](https://not
 - [x] archives
 - [x] tags
 - [x] content level
-- [] comments
+- [ ] comments
 - [x] lastUpdated
 - [x] github actions
 - [x] mobile + desktop
