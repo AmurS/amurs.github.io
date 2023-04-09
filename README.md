@@ -1,6 +1,6 @@
 ## Detail
 
-This is a blog theme used vitepress to build. You could [click here](https://visionary-sunflower-dc7ae3.netlify.app/) to see what it looks like.
+This is a blog theme used vitepress to build. You could [click here](https://note.rkgk.my.id/) to see what it looks like.
 
 ## Highlights
 
@@ -9,7 +9,7 @@ This is a blog theme used vitepress to build. You could [click here](https://vis
 - [x] archives
 - [x] tags
 - [x] content level
-- [x] comments
+- [] comments
 - [x] lastUpdated
 - [x] github actions
 - [x] mobile + desktop
@@ -17,7 +17,7 @@ This is a blog theme used vitepress to build. You could [click here](https://vis
 ## Start
 
 ```shell
-npx degit clark-cui/vitepress-blog-zaun my-vitepress-blog
+npx degit AmurS/amurs.github.io my-vitepress-blog
 cd my-vitepress-blog
 pnpm i # If you didn't install pnpm,you can run: npm install -g pnpm
 pnpm dev 
