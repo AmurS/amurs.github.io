@@ -9,25 +9,27 @@ tags:
   - self-hosted
   - keamanan
   - security
+  - ssh
+  - fail2ban
 ---
 
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Tentu saja kita tidak ingin server kita digunakan oleh orang yang tidak bertanggung jawab. Salah satu serangan yang umumnya terjadi adalah serangan ssh brute force. 
-Serangan ssh brute force pasti terjadi pada server yang terhubung secara publik. 
-Serangan ini mungkin jarang berhasil apabila kita menggunakan user dan password yang tidak umum atau penuh dengan karakter spesial. 
-Tapi ada baiknya kita memperlambat atau bahkan mencegah oknum-oknum ini agar tidak dapat dengan mudah melakukan serangan tersebut pada server kita. 
-Dengan memanfaatkan fail2ban kita dapat melarang ip address yang gagal melakukan login ssh pada kurun waktu dan jumlah kegagalan login tertentu.
+Tentu saja kita tidak ingin *server* kita digunakan oleh orang yang tidak bertanggung jawab. Salah satu serangan yang umumnya terjadi adalah serangan SSH [*brute-force*](https://en.wikipedia.org/wiki/Brute-force_attack). 
+Serangan SSH *brute-force* pasti terjadi pada *server* yang terhubung secara publik. 
+Serangan ini mungkin jarang berhasil apabila kita menggunakan *user* dan *password* yang tidak umum atau penuh dengan karakter spesial. 
+Tapi ada baiknya kita memperlambat atau bahkan mencegah oknum-oknum ini agar tidak dapat dengan mudah melakukan serangan tersebut pada *server* kita. 
+Dengan memanfaatkan [fail2ban](https://en.wikipedia.org/wiki/Fail2ban) kita dapat melarang [*ip address*](https://en.wikipedia.org/wiki/IP_address) yang gagal melakukan *login* SSH pada kurun waktu dan jumlah kegagalan *login* tertentu.
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ### Instalasi fail2ban
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 Sebelum melakukan instalasi fail2ban, saya menggunakan perangkat berikut pada catatan kali ini.
 - The Windows Terminal 
-- Server ubuntu 22 yang akan diamankan
+- Server Ubuntu 22 yang akan diamankan
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 <br>
 1. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Hal pertama yang dilakukan adalah masuk kedalam sesi terminal server ubuntu kita. Saya mengunakan perintah berikut pada terminal windows untuk menjalakan ssh.
+Hal pertama yang dilakukan adalah masuk kedalam sesi terminal *server* Ubuntu kita. Saya mengunakan perintah berikut pada terminal Windows untuk menjalakan SSH.
 ```
 ssh user@ip-server -i privatekey.key
 ```
@@ -46,12 +48,12 @@ Setelah melakukan instalasi, kita dapat mengecek apakah fail2ban berjalan dengan
 sudo systemctl status fail2ban
 ```
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Apabila tidak terdapat error seperti gambar berikut makan fail2ban sudah berjalan dengan benar. <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup><br>
+Apabila tidak terdapat *error* seperti gambar berikut makan fail2ban sudah berjalan dengan benar. <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup><br>
 ![fail2ban - status](/public/fail2ban-status.png) 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 4. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Dengan menggunakan konfigurasi default dari fail2ban sebenarnya sudah cukup. Namun apabila kita ingin melakukan konfigurasi lebih dalam, kita dapat membuat konfigurasi jail tambahan. Secara default konfigurasi fail2ban ada di ```/etc/fail2ban/jail.conf```. Untuk menambah konfigurasi jail fail2ban kita dapat membuat file ```jail.local``` pada direktori konfigurasi fail2ban. Untuk kasus ini saya mengunakan nano sebagai text editor saya.
+Dengan menggunakan konfigurasi *default* dari fail2ban sebenarnya sudah cukup. Namun apabila kita ingin melakukan konfigurasi lebih dalam, kita dapat membuat konfigurasi *jail* tambahan. Secara default konfigurasi fail2ban ada di ```/etc/fail2ban/jail.conf```. Untuk menambah konfigurasi *jail* fail2ban kita dapat membuat file ```jail.local``` pada direktori konfigurasi fail2ban. Untuk kasus ini saya mengunakan [nano](https://en.wikipedia.org/wiki/GNU_nano) sebagai teks editor saya.
 ```
 sudo nano /etc/fail2ban/jail.local
 ```
@@ -65,14 +67,14 @@ bantime = 30m
 maxretry=3
 ```
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Kemudian restart fail2ban dengan perintah berikut.
+Kemudian *restart* fail2ban dengan perintah berikut.
 ```
 sudo systemctl restart fail2ban
 ``` 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 5. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Setelah melakukan semua langkah di atas. Kita dapat melakukan pengecekan configurasi yang berjalan dengan mengunakan perintah berikut.
+Setelah melakukan semua langkah di atas. Kita dapat melakukan pengecekan konfigurasi yang berjalan dengan mengunakan perintah berikut.
 ```
 sudo fail2ban-client status
 ```
@@ -86,7 +88,7 @@ sudo fail2ban-client status sshd
 ![fail2ban - status ban](/public/fail2ban-statusban.png) 
 <br>
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Selamat! fail2ban sudah berjalan dengan baik di server anda. 
+Selamat! fail2ban sudah berjalan dengan baik di *server* anda. 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ### Referensi
