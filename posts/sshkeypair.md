@@ -40,7 +40,7 @@ Perintah ```-t ECDSA``` akan membuat pasangan kunci dengan algoritma ```ECDSA```
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 2. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Setelah memasukan perintah di atas maka anda akan diminta untuk memasukan *passphrase*. Ada baiknya untuk menyimpan atau mengingat *passphrase* ini apabila anda memasukan *passphrase* pada saat pembuatan pasangan kunci. Pasangan kunci akan tersimpan di folder ```C:\Users\$user\.ssh``` dengan nama ```id_ecdsa``` untuk *private key* dan ```id_ecdsa.pub``` untuk *publik key*.
+Setelah memasukan perintah di atas maka anda akan diminta untuk memasukan *passphrase*. Ada baiknya untuk menyimpan atau mengingat *passphrase* ini apabila anda memasukan *passphrase* pada saat pembuatan pasangan kunci. Pasangan kunci akan tersimpan di folder ```C:\Users\$user\.ssh``` dengan nama ```id_ecdsa``` untuk *private key* dan ```id_ecdsa.pub``` untuk *public key*.
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 ![OpenSSH Windows](/public/openssh-win2.png)
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
@@ -51,7 +51,7 @@ Simpanlah *private key* di tempat yang aman, karena *private key* ini setara den
 
 ### Konfigurasi SSH *server*
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Setelah kita memiliki pasangan kunci privat dan publik, kita dapat memlakukan konfigurasi pada *server* agar dapat melakukan autentikasi dengan pasangan kunci. Berikut langkah-langkah yang perlu dilakukan.
+Setelah kita memiliki pasangan kunci privat dan publik, kita dapat melakukan konfigurasi pada *server* agar dapat melakukan autentikasi dengan pasangan kunci. Pada catatan ini saya menggunakan *server* dengan OS Ubuntu 22. Berikut langkah-langkah yang perlu dilakukan.
 
 1. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 Hal pertama yang dilakukan adalah masuk kedalam sesi terminal *server* anda. Setelah masuk kita akan membuat folder untuk *public key* yang telah kita buat.
@@ -62,7 +62,7 @@ chmod 700 ~/.ssh
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 2. <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Ada banyak cara untuk memindahkan *public key* ke *server kita*. Pada catatan ini saya akan meng-*copy* isi *public key* ke file ```authorized_keys``` secara manual karena menurut saya ini lebih mudah dilakukan. Saya akan membuat file ```authorized_keys``` dengan menggunakan perintah berikut.
+Ada banyak cara untuk memindahkan *public key* ke *server kita*. Pada catatan ini saya akan meng-*copy* isi *public key* ke file ```authorized_keys``` secara manual karena menurut saya ini lebih mudah dilakukan untuk skala kecil. Saya akan membuat file ```authorized_keys``` dengan menggunakan teks editor nano dengan perintah berikut.
 ```
 nano ~/.ssh/authorized_keys
 ```
@@ -103,6 +103,8 @@ ssh -i id_ecdsa user@host
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 ![Public Key](/public/sshkeylogin.png)
 
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
+Apabila berhasil anda akan dapat masuk kedalam server anda seperti pada gambar di atas.
 ### Referensi
 ```
 https://www.redhat.com/sysadmin/key-based-authentication-ssh
