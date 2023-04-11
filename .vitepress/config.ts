@@ -61,10 +61,10 @@ async function config() {
           text: "📃Archives",
           link: "/archives",
         },
-        //{
-        //  text: "🔥RSS",
-        //  link: "https://clark-cui.top/feed.xml",
-        //},
+        {
+          text: "🔥RSS",
+          link: "https://note.rkgk.my.id/feed.xml",
+        },
       ],
       socialLinks: [
         { icon: "github", link: "https://github.com/AmurS" },

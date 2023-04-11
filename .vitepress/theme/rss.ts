@@ -6,15 +6,15 @@ import MarkdownIt from "markdown-it";
 import type { FeedOptions, Item } from "feed";
 import { Feed } from "feed";
 
-const DOMAIN = "https://clark-cui.top";
+const DOMAIN = "https://note.rkgk.my.id";
 const AUTHOR = {
-  name: "Clark Cui",
-  email: "rongchuancui@gmail.com",
+  name: "Amur Sontodirjo",
+  email: "amurdwys@gmail.com",
   link: DOMAIN,
 };
 const OPTIONS: FeedOptions = {
-  title: "Clark Cui",
-  description: "Clark Cui' Blog",
+  title: "Amur Sontodirjo",
+  description: "Catatan Amur Sontodirjo",
   id: `${DOMAIN}/`,
   link: `${DOMAIN}/`,
   copyright: "MIT License",
@@ -24,8 +24,8 @@ const OPTIONS: FeedOptions = {
     rss: DOMAIN + "/feed.xml",
   },
   author: AUTHOR,
-  image: "https://clark-cui.top/horse.svg",
-  favicon: "https://clark-cui.top/horse.svg",
+  image: "https://note.rkgk.my.id/home.svg",
+  favicon: "https://note.rkgk.my.id/home.svg",
 };
 
 const markdown = MarkdownIt({
