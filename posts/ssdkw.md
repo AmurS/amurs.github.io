@@ -29,22 +29,17 @@ Pada catatan kali ini saya akan membahas tentang SSD KW ini. Apakah ini SSD bene
 
 ### Packaging
  WIP
-
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup><br>
 ### CrystalDiskInfo
 
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-
 ![CrystalDiskInfo](/public/a400kwinfo.png)
-
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 ### CrystalDiskMark
 
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-
 ![CrystalDiskMark](/public/a400kwdiskmark.png)
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ### Pengetesan ukuran asli SSD
-
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ![H2testw](/public/a400h2test.png)
 
@@ -54,19 +49,16 @@ Dari hasil test H2testw SSD KW ini lolos verifikasi full disk dan memiliki kapas
 ![H2testw - Write](/public/a400kwh2write.png)
 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Dengan kecepatan *write* sekuensial seperti di atas. SSD KW ini memiliki SLC Caching sekitar 30% dari total ukuran SSD atau sekitar 80GB. Apabila SLC Cache ini habis maka kecepatan *write* akan turun drastis disekitaran 100 MB/s dan turun lagi menjadi hanya 50MB/s. Dari kecepatan yang didapat, saya memiliki kecurigaan NAND yang digunakan merupakan NAND QLC. Tentu saja, apabila anda melakukan write sekuensial dibawah 80GB dalam satu waktu, maka kecepatan *write* anda tetap akan berada dikecepatan 400MB/s seperti di gambar.
+Dengan kecepatan *write* sekuensial seperti di atas. SSD KW ini memiliki SLC Caching sekitar 30% dari total ukuran SSD atau sekitar 80GB. Apabila SLC Cache ini habis maka kecepatan *write* akan turun drastis disekitaran 100 MB/s dan turun lagi menjadi hanya 50MB/s. Dari kecepatan yang didapat, saya memiliki kecurigaan NAND yang digunakan merupakan NAND QLC. Tentu saja, apabila anda melakukan *write* sekuensial di bawah 80GB dalam satu waktu, maka kecepatan *write* anda tetap akan berada dikecepatan 400MB/s seperti di gambar.
 <br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ![H2testw - Read](/public/a400kwh2read.png)
 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Untuk hasil kecepatan *read*, SSD KW ini memiliki kemampuan yang bagus, hampir selalu berada di kecepatan 400MB/s dengan sedikit fluktuasi.
-
-
-
+Untuk hasil kecepatan *read*, SSD KW ini memiliki kemampuan yang bagus, hampir selalu berada dikecepatan 400MB/s dengan sedikit fluktuasi.
+<br><br>
 ### Pengetesan real-world
 
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ![Apex Move from HDD to SSD](/public/a400kwsteam.png)
 
@@ -77,9 +69,8 @@ Dalam pengujian ini, dilakukan perpindahan instalasi Apex Legend dengan ukuran 6
 
 ### Hasil benchmark akhir
 
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ![CrystalDiskMark](/public/a400kwdiskmark-after.png)
 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kecepatan *read*dan *write* SSD walaupun sudah melewati berbagai macam pengujian dan SSD dalam keadaan tidak kosong.    
+Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kecepatan *read* dan *write* SSD walaupun sudah melewati berbagai macam pengujian dan SSD dalam keadaan tidak kosong.    
