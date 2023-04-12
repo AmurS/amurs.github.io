@@ -83,7 +83,7 @@ Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kece
 
 ### Kesimpulan
 
-1. Harga yang sangat menggiuarkan. Rp. 740,-/ GB. Murah banget.
+1. Harga yang sangat menggiurkan. Rp. 740,-/ GB. Murah banget.
 2. SLC Cache besar. 80GB SLC Cache untuk ukuran SSD 256GB termasuk besar.
 3. Kecepatan *read* bagus. Bisa sustain 400MB/s untuk *read* sekuensial.
 4. *Endurance* tidak jelas. Dari indikasi kecepatan *write* yang turun hingga 50MB/s, mungkin saja ini menggunakan NAND QLC (TBW tipikal 150TB untuk 256GB di brand ternama).
