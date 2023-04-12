@@ -27,8 +27,14 @@ Dari pencarian dan hasil riset online yang telah saya lakukan. Memang benar SSD 
 Pada catatan kali ini saya akan membahas tentang SSD KW ini. Apakah ini SSD beneran (walaupun KW) atau SSD yang aslinya microSD/USB flash drive seperti *scam-scam* wi*h dot com.
 
 
-### Packaging
- WIP
+### *Packaging*
+::: details Kingston A400 KW
+![Box](/public/a400-1.jpg)
+![a400](/public/a400-2.jpg)
+:::
+::: details Kingston A400 Original
+![Box](/public/a400-3.jpg)
+:::
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup><br>
 ### CrystalDiskInfo
 
@@ -74,3 +80,18 @@ Dalam pengujian ini, dilakukan perpindahan instalasi Apex Legend dengan ukuran 6
 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kecepatan *read* dan *write* SSD walaupun sudah melewati berbagai macam pengujian dan SSD dalam keadaan tidak kosong.    
+
+### Kesimpulan
+
+1. Harga yang sangat mengiuarkan. Rp. 740,-/ GB. Murah banget.
+2. SLC Cache besar. 80GB SLC Cache untuk ukuran SSD 256GB termasuk besar.
+3. Kecepatan read bagus. Bisa sustain 400MB/s untuk read sekuensial.
+4. Endurance tidak jelas. Dari indikasi kecepatan write yang turun hingga 50MB/s, mungkin saja ini menggunakan NAND QLC (TBW tipikal 150TB untuk 256GB).
+5. Barang KW. Memakai nama Kingston tapi ini bukan keluaran Kingston.  
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
+
+### Referensi
+```
+https://linustechtips.com/topic/992444-kingston-a400-from-aliexpress/#comment-14524508
+https://www.kingston.com/id/support/product-verification
+```
