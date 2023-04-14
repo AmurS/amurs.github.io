@@ -3,13 +3,15 @@ title: SSD KW, abal, nan palsu?
 description: Fake Kingston A400 SSD from the local marketplace 
 date: 2023-04-12
 tags:
-  - SSD
-  - KW
-  - Counterfeit
-  - Fake
+  - ssd
+  - kw
+  - counterfeit
+  - palsu
 ---
-
-<br><sup class="watermark">Kunjungi https://note.rkgk.my.id </sup> 
+::: info 
+Terbarukan pada tanggal 15 April 2023.
+:::
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup> 
 
 > Lah loh, SSD KW? Emang ada? 
 
@@ -81,6 +83,13 @@ Dalam pengujian ini, dilakukan perpindahan instalasi Apex Legend dengan ukuran 6
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kecepatan *read* dan *write* SSD walaupun sudah melewati berbagai macam pengujian dan SSD dalam keadaan tidak kosong.    
 
+### Thermal sensor
+
+![Suhu SSD](/public/a400temp.png)
+
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
+SSD ini tidak memiliki thermal sensor seperti pada SSD dari brand ternama. Hal ini dapat dilihat dari gambar di atas, suhu yang dilaporkan tidak terjadi perubahan sama sekali.
+
 ### Kesimpulan
 
 1. Harga yang sangat menggiurkan. Rp. 740,-/ GB. Murah banget.
@@ -88,6 +97,7 @@ Dapat dilihat dari hasil tersebut, tidak ada perubahan yang signifikan pada kece
 3. Kecepatan *read* bagus. Bisa sustain 400MB/s untuk *read* sekuensial.
 4. *Endurance* tidak jelas. Dari indikasi kecepatan *write* yang turun hingga 50MB/s, mungkin saja ini menggunakan NAND QLC (TBW tipikal 150TB untuk 256GB di brand ternama).
 5. Barang KW. Memakai nama Kingston tapi ini bukan keluaran Kingston.  
+6. Tidak ada *thermal sensor*. Suhu yang dilaporkan selalu berada di 40 C.
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
 
 ### Referensi
