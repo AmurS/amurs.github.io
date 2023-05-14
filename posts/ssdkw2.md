@@ -15,7 +15,7 @@ Ini merupakan *update* dari post [SSD KW, abal nan palsu?](/posts/ssdkw.md) yang
 
 ### CrystalDiskInfo
 ::: info 
-Saya jarang mematikan komputer, sehingga *power on count* hanya 12 kali dengan *power on hours* hingga 772 *hours* (32 hari *non-stop*).
+Saya jarang mematikan komputer, sehingga *power on count* hanya 12 kali dengan *power on hours* hingga 774 *hours* (32 hari *non-stop*).
 :::
 ![CrystalDiskInfo](/public/a400kwinfo-update.png)
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup> 
