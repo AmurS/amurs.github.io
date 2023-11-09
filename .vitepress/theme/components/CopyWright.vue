@@ -6,7 +6,7 @@
     | Theme by
     <a href="https://github.com/clark-cui/vitepress-blog-zaun" target="_blank" title="Clark-Cui-blog-zaun"
       >blog-zaun</a>
-    | <a href="https://up.korone.my.id" target="_blank" title="KoroNetwork Server Status"
+    | <a href="https://up.msgk.my.id" target="_blank" title="Server Status"
       >Server Status</a>
     <br> rkgk © 2022-{{ date }}
   </footer>
