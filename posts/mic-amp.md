@@ -11,7 +11,7 @@ tags:
 
 ### Post Pertama di Tahun 2024
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>
-Setelah sekian lama tidak melakukan update di blog ini, saya akan mengawali tahun yang baru ini dengan membuat post yang agak berbeda dari biasanya. Untuk kali ini saya akan membuat sebuah rangkaian Mic Amplifier untuk Mic Condenser saya. Saya sendiri memiliki latar belakang enggineering sehingga rangkaian elektronik seperti ini tidaklah asing bagi saya.
+Setelah sekian lama tidak melakukan update di blog ini, saya akan mengawali tahun yang baru ini dengan membuat post yang agak berbeda dari biasanya. Untuk kali ini saya akan membuat sebuah rangkaian Mic Amplifier untuk Mic Condenser saya. Saya sendiri memiliki latar belakang engineering sehingga rangkaian elektronik seperti ini tidaklah asing bagi saya.
 
 ### Latar Belakang
 
