@@ -29,13 +29,13 @@ Jadi selama ini saya menggunakan Mic Condenser BM700 yang banyak ditemukan di ma
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Oleh karena itu untuk kali ini, saya ingin membuat rangkaian mic amplifier agar saya tidak perlu menaikan gain soundcard dan meningkatkan SNR dan Dynamic Range dari mic ini (harapannya).
 
 ### Desain Rangakain
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Untuk desain rangkaian Mic Amplifier ini, saya hanya menggunakan rangkaian yang sederhana saja. Untuk input mic saya akan mengubah sinyal balanced mic ke sinyal unbalanced. Rangkaian untuk sinyal unbalanced sendiri lebih mudah dibuat dan tidak perlu banyak komponen, namun sinyal unbalanced ini memiliki kelemahan di kemampuan penolakan derau atau noise rejection nya. Berikut rangkaian final yang saya buat setelah melewati berbagai macam eksperimen.
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Untuk desain rangkaian Mic Amplifier ini, saya hanya menggunakan rangkaian yang sederhana saja. Untuk input mic saya akan mengubah sinyal balanced mic ke sinyal unbalanced. Rangkaian untuk sinyal unbalanced sendiri lebih mudah dibuat dan tidak perlu banyak komponen, namun sinyal unbalanced ini memiliki kelemahan dikemampuan penolakan derau atau noise rejection nya. Berikut rangkaian final yang saya buat setelah melewati berbagai macam eksperimen.
 
 ::: details Rangkaian Mic Amplifier
 ![Rangkaian](/public/Amplifier-overview.png)
 :::
 
-<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Untuk postingan kali ini saya tidak akan menjelaskan secara satu persatu fungsi dari rangkaian ini dan alasan teknisnya (selain karena saya hanya punya nilai komponen tersebut), mungkin untuk penjelasan detail akan saya buat untuk postingan dilain waktu.
+<sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Untuk postingan kali ini saya tidak akan menjelaskan secara satu persatu fungsi dari rangkaian ini dan alasan teknisnya (selain karena saya hanya punya nilai komponen tersebut), mungkin untuk penjelasan detail akan saya buat untuk postingan di lain waktu.
 
 
 ### Pembuatan Rangkaian
