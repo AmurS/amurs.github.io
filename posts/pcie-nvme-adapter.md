@@ -15,7 +15,7 @@ tags:
 
 <sup class="watermark">Kunjungi https://note.rkgk.my.id </sup>Pada umumnya, NVME memerlukan 4 jalur PCIe (*4 lanes*) untuk mendapatkan performa maksimal, tapi dengan adapter ini kita akan memanfaatkan slot PCIe x1 yang ada di motherboard. Tentu saja, performa SSD hanya akan berjalan dengan kecepatan 1 jalur PCIe (1 *lane*).<br>
 
-![PCIE](/public/PCIEGen.png)
+![PCIE](/public/pciegen.png)
 <br>
 
 ### CrystalDiskMark
