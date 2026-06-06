@@ -68,7 +68,7 @@ Cage ini didesain dengan celah ventilasi di setiap slot-nya dan menggunakan baut
 
 ### Supermicro LSI 9211-8i SAS Card
 
-![SASCard+Cable](/public/SASCard+Cable.jpg)
+![SASCard+Cable](/public/SASCardCable.jpg)
 
 Untuk menghubungkan banyak hard drive ke motherboard, saya menggunakan **Supermicro LSI 9211-8i** dalam mode IT (Initiator Target). Kartu ini menggunakan chip LSI SAS2008 yang sudah terkenal stabil dan banyak digunakan di server enterprise.
 
